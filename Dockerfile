@@ -37,5 +37,5 @@ ADD docker/ /
 
 RUN rm -rf /var/www/app/docker && echo $VERSION > /var/www/app/app/version.txt
 
-ENTRYPOINT ["/usr/local/bin/entrypoint.sh"]
+ENTRYPOINT ["/init"]
 CMD []
