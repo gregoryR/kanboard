@@ -1,2 +1,2 @@
-#!/bin/execlineb -P
+#!/command/with-contenv sh
 php-fpm83 -F
